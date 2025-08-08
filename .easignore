@@ -1,5 +1,7 @@
 # Ignore node modules (will be installed by EAS)
 node_modules/
+venv/
+.git/
 
 # Ignore Android build outputs
 android/.gradle/
