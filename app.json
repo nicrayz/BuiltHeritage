@@ -2,6 +2,49 @@
   "expo": {
     "name": "BuiltHeritage",
     "slug": "BuiltHeritage",
-    "version": "1.0.0"
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "newArchEnabled": true,
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.rsekyewa.BuiltHeritage"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.rsekyewa.BuiltHeritage"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "13fc3558-4d2e-4cc3-8110-9a1fb540b9ca"
+      },
+      "expoGo": {
+        "debuggerHost": "127.0.0.1:8081",
+        "developer": {
+          "tool": "expo-cli",
+          "projectRoot": "D:\\project\\BuiltHeritage"
+        },
+        "packagerOpts": {
+          "dev": true
+        },
+        "mainModuleName": "index"
+      }
+    }
   }
 }
