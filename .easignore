@@ -1,0 +1,29 @@
+# Ignore node modules (will be installed by EAS)
+node_modules/
+
+# Ignore Android build outputs
+android/.gradle/
+android/app/build/
+android/build/
+
+# Ignore iOS build outputs
+ios/Pods/
+ios/build/
+
+# Ignore Metro bundler cache
+.expo/
+.expo-shared/
+
+# Ignore logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Ignore local environment files
+.env.local
+.env.*.local
+
+# Ignore any other unnecessary files/folders
+*.iml
+.vscode/
+.DS_Store
